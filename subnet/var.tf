@@ -1,7 +1,6 @@
-variable "env" {}
-variable "vpc_cidr_block" {}
 variable "subnet_cidr_block" {}
 variable "azs" {}
 variable "tags" {}
+variable "env" {}
 variable "name" {}
-variable "subnets" {}
+variable "vpc_id" {}
