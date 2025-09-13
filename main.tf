@@ -6,7 +6,7 @@ resource "aws_vpc" "main" {
 }
 
 module "subnets" {
-  source = "./subnets"
+  source = "git::https://github.com/wavedevops/terraform-modules.git//subnet"
 
   for_each   = var.subnets
   vpc_id     = aws_vpc.main.id
