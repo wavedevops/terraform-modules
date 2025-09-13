@@ -1,7 +1,7 @@
-variable "env" {}
-variable "vpc_cidr_block" {}
-variable "subnet_cidr_block" {}
-variable "azs" {}
+variable "cidr_block" {}
 variable "tags" {}
-variable "name" {}
+variable "env" {}
 variable "subnets" {}
+# variable "default_vpc_id" {}
+# variable "default_vpc_cidr" {}
+# variable "default_vpc_rtid" {}
