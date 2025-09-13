@@ -11,7 +11,6 @@ module "subnets" {
   cidr_block = each.value["cidr_block"]
   name       = each.value["name"]
   azs        = each.value["azs"]
-
   tags = var.tags
   env  = var.env
 }
